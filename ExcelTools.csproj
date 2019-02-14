@@ -37,19 +37,8 @@
       <HintPath>lib\DocumentFormat.OpenXml.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OpenXmlPowerTools, Version=1.0.0.0, Culture=neutral, PublicKeyToken=25dd7e7a921c5a5e, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\OpenXmlPowerTools.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <RequiredTargetFramework>3.5</RequiredTargetFramework>
-    </Reference>
-    <Reference Include="System.Data.DataSetExtensions">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
@@ -65,7 +54,7 @@
   <ItemGroup>
     <ProjectReference Include="..\StreamTools\StreamTools.csproj">
       <Project>{71BF153D-65A7-4A31-8125-3CBE3DD10B73}</Project>
-      <Name>StreamTools %28Главный\StreamTools\StreamTools%29</Name>
+      <Name>StreamTools %28StreamTools\StreamTools%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
